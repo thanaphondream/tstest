@@ -10,6 +10,6 @@ export const nametsxt = (name: Prisma.TodoCreateInput) => {
 }
 
 export const showdatatodo = () => {
-    const rs = db.name.findMany()
+    const rs = db.name.    findMany()
     return rs
 }
